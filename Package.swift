@@ -14,6 +14,6 @@ let package = Package(
         .target(
             name: "IosMath",
             dependencies: [],
-            path: "IosMath"),
+            path: "iosMath"),
     ]
 )
