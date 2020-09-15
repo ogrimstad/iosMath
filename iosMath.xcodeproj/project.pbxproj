@@ -57,6 +57,8 @@
 		D94FE3541B90DE46002D11E2 /* MTMathListDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 492EECF317DAED9000939107 /* MTMathListDisplay.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D94FE3551B90DE5B002D11E2 /* MTMathList.h in Headers */ = {isa = PBXBuildFile; fileRef = 492EED0217DAEDB500939107 /* MTMathList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D94FE3591B90DE91002D11E2 /* MTMathListBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 492EED0417DAEDB500939107 /* MTMathListBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF0BBB922510FD230094E6A4 /* MTFont+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DEC80B1CEF1028000053CD /* MTFont+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DF0BBB932510FD230094E6A4 /* MTMathListDisplayInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 49EEFD7E1D19B94C002D15C4 /* MTMathListDisplayInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -404,6 +406,8 @@
 				D94FE3531B90DD29002D11E2 /* MTMathUILabel.h in Headers */,
 				D94FE3551B90DE5B002D11E2 /* MTMathList.h in Headers */,
 				49DEC8061CED71C3000053CD /* MTFont.h in Headers */,
+				DF0BBB922510FD230094E6A4 /* MTFont+Internal.h in Headers */,
+				DF0BBB932510FD230094E6A4 /* MTMathListDisplayInternal.h in Headers */,
 				49EEFD7C1D19B664002D15C4 /* MTTypesetter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,12 +496,19 @@
 			attributes = {
 				LastTestingUpgradeCheck = 0630;
 				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					49965EFB17CBBA2700A555C5 = {
+						DevelopmentTeam = T984FR9Q54;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 49965EF717CBBA2700A555C5 /* Build configuration list for PBXProject "iosMath" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 49965EF317CBBA2700A555C5;
@@ -576,7 +587,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-iosMathTests/Pods-iosMathTests-resources.sh",
-        "${PODS_CONFIGURATION_BUILD_DIR}/iosMath-iOS6.0/mathFonts.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/iosMath-iOS6.0/mathFonts.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
