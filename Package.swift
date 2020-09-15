@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .target(
             name: "IosMath",
-            path: "IosMath",
-            dependencies: []),
+            dependencies: [],
+            path: "IosMath"),
     ]
 )
