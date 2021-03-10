@@ -10,6 +10,8 @@
 
 #if TARGET_OS_IPHONE
 
+class UIColor;
+
 @interface UIColor (HexString)
 
 + (UIColor *)colorFromHexString:(NSString *)hexString;
