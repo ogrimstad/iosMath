@@ -6,11 +6,11 @@
 //
 //
 
-#import <Foundation/Foundation.h>
+#include <TargetConditionals.h>
 
 #if TARGET_OS_IPHONE
 
-class UIColor;
+@import UIKit;
 
 @interface UIColor (HexString)
 
